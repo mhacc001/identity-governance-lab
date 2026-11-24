@@ -1,0 +1,143 @@
+[
+  {
+    "user": "amara.nwosu@northwind.example",
+    "active": true,
+    "groups": [
+      "AWS-Dev-ReadOnly",
+      "All-Staff",
+      "GitHub-Developers",
+      "Jira-Software",
+      "M365-E3"
+    ]
+  },
+  {
+    "user": "chloe.dubois@northwind.example",
+    "active": true,
+    "groups": [
+      "All-Staff",
+      "Finance-SharePoint",
+      "M365-E3",
+      "NetSuite-AP-Clerk"
+    ]
+  },
+  {
+    "user": "daniel.reyes@northwind.example",
+    "active": true,
+    "groups": [
+      "All-Staff",
+      "IT-Helpdesk",
+      "M365-E3",
+      "Okta-ReadOnly-Admin",
+      "Okta-Super-Admin"
+    ]
+  },
+  {
+    "user": "ethan.brooks@northwind.example",
+    "active": true,
+    "groups": [
+      "All-Staff",
+      "M365-E3",
+      "Sales-SharePoint",
+      "Salesforce-Sales-User",
+      "Tableau-Creator"
+    ]
+  },
+  {
+    "user": "grace.okafor@northwind.example",
+    "active": true,
+    "groups": [
+      "All-Staff",
+      "Domain-Admins",
+      "IT-Helpdesk",
+      "M365-E3",
+      "Okta-ReadOnly-Admin"
+    ]
+  },
+  {
+    "user": "jonas.weber@northwind.example",
+    "active": true,
+    "groups": [
+      "All-Staff",
+      "Jira-Software"
+    ]
+  },
+  {
+    "user": "liam.chen@northwind.example",
+    "active": true,
+    "groups": [
+      "AWS-Dev-ReadOnly",
+      "All-Staff",
+      "GitHub-Developers",
+      "Jira-Software",
+      "M365-E3"
+    ]
+  },
+  {
+    "user": "lucas.moreau@northwind.example",
+    "active": true,
+    "groups": [
+      "All-Staff",
+      "M365-E3",
+      "Sales-SharePoint",
+      "Salesforce-Sales-User"
+    ]
+  },
+  {
+    "user": "maya.haddad@northwind.example",
+    "active": true,
+    "groups": [
+      "All-Staff",
+      "M365-E3",
+      "Sales-SharePoint",
+      "Salesforce-Sales-User"
+    ]
+  },
+  {
+    "user": "noah.patel@northwind.example",
+    "active": true,
+    "groups": [
+      "All-Staff",
+      "Finance-SharePoint",
+      "M365-E3",
+      "NetSuite-AP-Approver",
+      "NetSuite-AP-Clerk",
+      "NetSuite-Vendor-Admin"
+    ]
+  },
+  {
+    "user": "olivia.grant@northwind.example",
+    "active": false,
+    "groups": []
+  },
+  {
+    "user": "priya.raman@northwind.example",
+    "active": true,
+    "groups": [
+      "All-Staff",
+      "Finance-SharePoint",
+      "M365-E3",
+      "NetSuite-AP-Clerk",
+      "Workday-Payroll-Processor"
+    ]
+  },
+  {
+    "user": "sofia.martins@northwind.example",
+    "active": true,
+    "groups": [
+      "AWS-Dev-ReadOnly",
+      "AWS-Prod-Admin",
+      "All-Staff",
+      "GitHub-Developers",
+      "Jira-Software",
+      "M365-E3"
+    ]
+  },
+  {
+    "user": "temp.auditor@northwind.example",
+    "active": true,
+    "groups": [
+      "Finance-SharePoint",
+      "NetSuite-AP-Clerk"
+    ]
+  }
+]

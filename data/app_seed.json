@@ -1,0 +1,31 @@
+{
+  "description": "State of the target app (Northwind Workspace) before the lab runs. It contains the kind of drift a real tenant collects: a missed leaver, a mover who kept old access, a manual privileged grant, an orphan account, and a contractor with a license they should not have.",
+  "users": [
+    {"userName": "grace.okafor@northwind.example", "employeeNumber": "E100", "givenName": "Grace", "familyName": "Okafor", "active": true, "lastLogin": "2026-11-21",
+     "groups": ["All-Staff", "M365-E3", "IT-Helpdesk", "Okta-ReadOnly-Admin", "Domain-Admins"]},
+    {"userName": "daniel.reyes@northwind.example", "employeeNumber": "E101", "givenName": "Daniel", "familyName": "Reyes", "active": true, "lastLogin": "2026-11-23",
+     "groups": ["All-Staff", "M365-E3", "IT-Helpdesk", "Okta-ReadOnly-Admin", "Okta-Super-Admin"]},
+    {"userName": "amara.nwosu@northwind.example", "employeeNumber": "E102", "givenName": "Amara", "familyName": "Nwosu", "active": true, "lastLogin": "2026-11-20",
+     "groups": ["All-Staff", "M365-E3", "GitHub-Developers", "AWS-Dev-ReadOnly", "Jira-Software"]},
+    {"userName": "liam.chen@northwind.example", "employeeNumber": "E103", "givenName": "Liam", "familyName": "Chen", "active": true, "lastLogin": "2026-11-22",
+     "groups": ["All-Staff", "M365-E3", "GitHub-Developers", "AWS-Dev-ReadOnly", "Jira-Software", "AWS-Prod-Admin"]},
+    {"userName": "sofia.martins@northwind.example", "employeeNumber": "E104", "givenName": "Sofia", "familyName": "Martins", "active": true, "lastLogin": "2026-11-23",
+     "groups": ["All-Staff", "M365-E3", "GitHub-Developers", "AWS-Dev-ReadOnly", "Jira-Software", "AWS-Prod-Admin"]},
+    {"userName": "noah.patel@northwind.example", "employeeNumber": "E105", "givenName": "Noah", "familyName": "Patel", "active": true, "lastLogin": "2026-11-19",
+     "groups": ["All-Staff", "M365-E3", "NetSuite-AP-Clerk", "Finance-SharePoint", "NetSuite-AP-Approver", "NetSuite-Vendor-Admin"]},
+    {"userName": "chloe.dubois@northwind.example", "employeeNumber": "E106", "givenName": "Chloe", "familyName": "Dubois", "active": true, "lastLogin": "2026-11-21",
+     "groups": ["All-Staff", "M365-E3", "NetSuite-AP-Clerk", "Finance-SharePoint"]},
+    {"userName": "ethan.brooks@northwind.example", "employeeNumber": "E107", "givenName": "Ethan", "familyName": "Brooks", "active": true, "lastLogin": "2026-07-01",
+     "groups": ["All-Staff", "M365-E3", "Salesforce-Sales-User", "Sales-SharePoint", "Tableau-Creator"]},
+    {"userName": "maya.haddad@northwind.example", "employeeNumber": "E108", "givenName": "Maya", "familyName": "Haddad", "active": true, "lastLogin": "2026-11-18",
+     "groups": ["All-Staff", "M365-E3", "Salesforce-Sales-User", "Sales-SharePoint"]},
+    {"userName": "lucas.moreau@northwind.example", "employeeNumber": "E109", "givenName": "Lucas", "familyName": "Moreau", "active": true, "lastLogin": "2026-11-22",
+     "groups": ["All-Staff", "M365-E3", "GitHub-Developers", "AWS-Dev-ReadOnly", "Jira-Software"]},
+    {"userName": "olivia.grant@northwind.example", "employeeNumber": "E110", "givenName": "Olivia", "familyName": "Grant", "active": true, "lastLogin": "2026-11-13",
+     "groups": ["All-Staff", "M365-E3", "GitHub-Developers", "AWS-Dev-ReadOnly", "Jira-Software"]},
+    {"userName": "jonas.weber@northwind.example", "employeeNumber": "E111", "givenName": "Jonas", "familyName": "Weber", "active": true, "lastLogin": "2026-11-20",
+     "groups": ["All-Staff", "M365-E3", "Jira-Software"]},
+    {"userName": "temp.auditor@northwind.example", "employeeNumber": "", "givenName": "Temp", "familyName": "Auditor", "active": true, "lastLogin": "2026-03-02",
+     "groups": ["Finance-SharePoint", "NetSuite-AP-Clerk"]}
+  ]
+}

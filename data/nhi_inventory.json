@@ -1,0 +1,20 @@
+{
+  "description": "Non-human identities in the Northwind tenant (fictional): service accounts, app registrations and one AI agent. Shaped like an Entra ID app-registration export.",
+  "identities": [
+    {"name": "svc-backup", "type": "service_account", "owner": "daniel.reyes@northwind.example",
+     "permissions": ["Sites.Read.All"], "credential": {"kind": "certificate", "created": "2026-06-01", "expires": "2027-06-01"},
+     "last_used": "2026-11-23", "purpose": "Nightly SharePoint backup export"},
+    {"name": "app-hr-sync", "type": "app_registration", "owner": null,
+     "permissions": ["User.ReadWrite.All", "Directory.ReadWrite.All"], "credential": {"kind": "client_secret", "created": "2024-12-10", "expires": "2026-12-10"},
+     "last_used": "2026-11-23", "purpose": "Pushes HR attribute changes into the directory"},
+    {"name": "svc-legacy-ftp", "type": "service_account", "owner": "olivia.grant@northwind.example",
+     "permissions": ["Files.ReadWrite.All"], "credential": {"kind": "password", "created": "2021-02-03", "expires": null},
+     "last_used": "2026-05-02", "purpose": "Partner file drop (legacy)"},
+    {"name": "app-sales-dashboard", "type": "app_registration", "owner": "maya.haddad@northwind.example",
+     "permissions": ["User.Read"], "credential": {"kind": "client_secret", "created": "2025-10-31", "expires": "2026-10-31"},
+     "last_used": "2026-10-30", "purpose": "Sign-in for the internal sales dashboard"},
+    {"name": "ai-agent-ticket-triage", "type": "ai_agent", "owner": "daniel.reyes@northwind.example",
+     "permissions": ["Mail.Send", "Sites.ReadWrite.All"], "credential": {"kind": "certificate", "created": "2026-10-01", "expires": "2027-10-01"},
+     "last_used": "2026-11-23", "purpose": "Triages support tickets and emails customers", "human_approval_for_writes": false}
+  ]
+}

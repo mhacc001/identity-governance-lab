@@ -1,0 +1,14 @@
+employee_id,first_name,last_name,email,department,title,manager_id,status,start_date,end_date
+E100,Grace,Okafor,grace.okafor@northwind.example,IT,IT Director,,active,2019-03-04,
+E101,Daniel,Reyes,daniel.reyes@northwind.example,IT,IAM Engineer,E100,active,2022-06-13,
+E102,Amara,Nwosu,amara.nwosu@northwind.example,Engineering,Engineering Manager,E100,active,2020-01-06,
+E103,Liam,Chen,liam.chen@northwind.example,Engineering,Software Engineer,E102,active,2023-02-20,
+E104,Sofia,Martins,sofia.martins@northwind.example,Engineering,Site Reliability Engineer,E102,active,2021-09-27,
+E105,Noah,Patel,noah.patel@northwind.example,Finance,Finance Manager,E100,active,2018-11-12,
+E106,Chloe,Dubois,chloe.dubois@northwind.example,Finance,Accounts Payable Specialist,E105,active,2024-04-01,
+E107,Ethan,Brooks,ethan.brooks@northwind.example,Sales,Account Executive,E108,active,2023-07-10,
+E108,Maya,Haddad,maya.haddad@northwind.example,Sales,Sales Director,E100,active,2020-05-18,
+E109,Lucas,Moreau,lucas.moreau@northwind.example,Sales,Sales Engineer,E108,active,2022-03-14,
+E110,Olivia,Grant,olivia.grant@northwind.example,Engineering,Software Engineer,E102,terminated,2022-08-01,2026-11-14
+E111,Jonas,Weber,jonas.weber@northwind.example,Contractors,QA Contractor,E102,active,2026-09-01,2027-02-28
+E112,Priya,Raman,priya.raman@northwind.example,Finance,Payroll Analyst,E105,active,2026-11-24,

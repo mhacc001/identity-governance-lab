@@ -1,0 +1,79 @@
+{"ts": "2026-11-24T03:29:41+00:00", "action": "provision.remove_group", "user": "jonas.weber@northwind.example", "group": "M365-E3", "reason": "no longer entitled as Contractors / QA Contractor"}
+{"ts": "2026-11-24T03:29:41+00:00", "action": "provision.remove_group", "user": "liam.chen@northwind.example", "group": "AWS-Prod-Admin", "reason": "no longer entitled as Engineering / Software Engineer"}
+{"ts": "2026-11-24T03:29:41+00:00", "action": "provision.add_group", "user": "lucas.moreau@northwind.example", "group": "Sales-SharePoint", "reason": "policy: Sales / Sales Engineer"}
+{"ts": "2026-11-24T03:29:41+00:00", "action": "provision.add_group", "user": "lucas.moreau@northwind.example", "group": "Salesforce-Sales-User", "reason": "policy: Sales / Sales Engineer"}
+{"ts": "2026-11-24T03:29:41+00:00", "action": "provision.remove_group", "user": "lucas.moreau@northwind.example", "group": "AWS-Dev-ReadOnly", "reason": "no longer entitled as Sales / Sales Engineer"}
+{"ts": "2026-11-24T03:29:41+00:00", "action": "provision.remove_group", "user": "lucas.moreau@northwind.example", "group": "GitHub-Developers", "reason": "no longer entitled as Sales / Sales Engineer"}
+{"ts": "2026-11-24T03:29:41+00:00", "action": "provision.remove_group", "user": "lucas.moreau@northwind.example", "group": "Jira-Software", "reason": "no longer entitled as Sales / Sales Engineer"}
+{"ts": "2026-11-24T03:29:41+00:00", "action": "provision.deactivate", "user": "olivia.grant@northwind.example", "group": "", "reason": "leaver: terminated 2026-11-14"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "provision.remove_group", "user": "olivia.grant@northwind.example", "group": "AWS-Dev-ReadOnly", "reason": "leaver"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "provision.remove_group", "user": "olivia.grant@northwind.example", "group": "All-Staff", "reason": "leaver"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "provision.remove_group", "user": "olivia.grant@northwind.example", "group": "GitHub-Developers", "reason": "leaver"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "provision.remove_group", "user": "olivia.grant@northwind.example", "group": "Jira-Software", "reason": "leaver"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "provision.remove_group", "user": "olivia.grant@northwind.example", "group": "M365-E3", "reason": "leaver"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "provision.create_user", "user": "priya.raman@northwind.example", "group": "", "reason": "joiner: starts 2026-11-24"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "provision.add_group", "user": "priya.raman@northwind.example", "group": "All-Staff", "reason": "policy: Finance / Payroll Analyst"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "provision.add_group", "user": "priya.raman@northwind.example", "group": "Finance-SharePoint", "reason": "policy: Finance / Payroll Analyst"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "provision.add_group", "user": "priya.raman@northwind.example", "group": "M365-E3", "reason": "policy: Finance / Payroll Analyst"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "provision.add_group", "user": "priya.raman@northwind.example", "group": "NetSuite-AP-Clerk", "reason": "policy: Finance / Payroll Analyst"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "provision.add_group", "user": "priya.raman@northwind.example", "group": "Workday-Payroll-Processor", "reason": "policy: Finance / Payroll Analyst"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "provision.orphan", "user": "temp.auditor@northwind.example", "group": "", "reason": "active account with no HR record"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-001", "user": "amara.nwosu@northwind.example", "group": "AWS-Dev-ReadOnly", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-002", "user": "amara.nwosu@northwind.example", "group": "All-Staff", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-003", "user": "amara.nwosu@northwind.example", "group": "GitHub-Developers", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-004", "user": "amara.nwosu@northwind.example", "group": "Jira-Software", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-005", "user": "amara.nwosu@northwind.example", "group": "M365-E3", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-006", "user": "chloe.dubois@northwind.example", "group": "All-Staff", "reviewer": "noah.patel@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-007", "user": "chloe.dubois@northwind.example", "group": "Finance-SharePoint", "reviewer": "noah.patel@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-008", "user": "chloe.dubois@northwind.example", "group": "M365-E3", "reviewer": "noah.patel@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-009", "user": "chloe.dubois@northwind.example", "group": "NetSuite-AP-Clerk", "reviewer": "noah.patel@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-010", "user": "daniel.reyes@northwind.example", "group": "All-Staff", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-011", "user": "daniel.reyes@northwind.example", "group": "IT-Helpdesk", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-012", "user": "daniel.reyes@northwind.example", "group": "M365-E3", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-013", "user": "daniel.reyes@northwind.example", "group": "Okta-ReadOnly-Admin", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-014", "user": "daniel.reyes@northwind.example", "group": "Okta-Super-Admin", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-015", "user": "ethan.brooks@northwind.example", "group": "All-Staff", "reviewer": "maya.haddad@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-016", "user": "ethan.brooks@northwind.example", "group": "M365-E3", "reviewer": "maya.haddad@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-017", "user": "ethan.brooks@northwind.example", "group": "Sales-SharePoint", "reviewer": "maya.haddad@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-018", "user": "ethan.brooks@northwind.example", "group": "Salesforce-Sales-User", "reviewer": "maya.haddad@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.revoke", "item": "AR-019", "user": "ethan.brooks@northwind.example", "group": "Tableau-Creator", "reviewer": "maya.haddad@northwind.example", "flags": "exception,inactive-146d"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-020", "user": "grace.okafor@northwind.example", "group": "All-Staff", "reviewer": "iam-team@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.revoke", "item": "AR-021", "user": "grace.okafor@northwind.example", "group": "Domain-Admins", "reviewer": "iam-team@northwind.example", "flags": "privileged,exception"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-022", "user": "grace.okafor@northwind.example", "group": "IT-Helpdesk", "reviewer": "iam-team@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-023", "user": "grace.okafor@northwind.example", "group": "M365-E3", "reviewer": "iam-team@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-024", "user": "grace.okafor@northwind.example", "group": "Okta-ReadOnly-Admin", "reviewer": "iam-team@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-025", "user": "jonas.weber@northwind.example", "group": "All-Staff", "reviewer": "amara.nwosu@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-026", "user": "jonas.weber@northwind.example", "group": "Jira-Software", "reviewer": "amara.nwosu@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-027", "user": "liam.chen@northwind.example", "group": "AWS-Dev-ReadOnly", "reviewer": "amara.nwosu@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-028", "user": "liam.chen@northwind.example", "group": "All-Staff", "reviewer": "amara.nwosu@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-029", "user": "liam.chen@northwind.example", "group": "GitHub-Developers", "reviewer": "amara.nwosu@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-030", "user": "liam.chen@northwind.example", "group": "Jira-Software", "reviewer": "amara.nwosu@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-031", "user": "liam.chen@northwind.example", "group": "M365-E3", "reviewer": "amara.nwosu@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-032", "user": "lucas.moreau@northwind.example", "group": "All-Staff", "reviewer": "maya.haddad@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-033", "user": "lucas.moreau@northwind.example", "group": "M365-E3", "reviewer": "maya.haddad@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-034", "user": "lucas.moreau@northwind.example", "group": "Sales-SharePoint", "reviewer": "maya.haddad@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-035", "user": "lucas.moreau@northwind.example", "group": "Salesforce-Sales-User", "reviewer": "maya.haddad@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-036", "user": "maya.haddad@northwind.example", "group": "All-Staff", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-037", "user": "maya.haddad@northwind.example", "group": "M365-E3", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-038", "user": "maya.haddad@northwind.example", "group": "Sales-SharePoint", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-039", "user": "maya.haddad@northwind.example", "group": "Salesforce-Sales-User", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-040", "user": "noah.patel@northwind.example", "group": "All-Staff", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-041", "user": "noah.patel@northwind.example", "group": "Finance-SharePoint", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-042", "user": "noah.patel@northwind.example", "group": "M365-E3", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-043", "user": "noah.patel@northwind.example", "group": "NetSuite-AP-Approver", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-044", "user": "noah.patel@northwind.example", "group": "NetSuite-AP-Clerk", "reviewer": "grace.okafor@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.revoke", "item": "AR-045", "user": "noah.patel@northwind.example", "group": "NetSuite-Vendor-Admin", "reviewer": "grace.okafor@northwind.example", "flags": "privileged,exception"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-046", "user": "priya.raman@northwind.example", "group": "All-Staff", "reviewer": "noah.patel@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-047", "user": "priya.raman@northwind.example", "group": "Finance-SharePoint", "reviewer": "noah.patel@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-048", "user": "priya.raman@northwind.example", "group": "M365-E3", "reviewer": "noah.patel@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-049", "user": "priya.raman@northwind.example", "group": "NetSuite-AP-Clerk", "reviewer": "noah.patel@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-050", "user": "priya.raman@northwind.example", "group": "Workday-Payroll-Processor", "reviewer": "noah.patel@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-051", "user": "sofia.martins@northwind.example", "group": "AWS-Dev-ReadOnly", "reviewer": "amara.nwosu@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-052", "user": "sofia.martins@northwind.example", "group": "AWS-Prod-Admin", "reviewer": "amara.nwosu@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-053", "user": "sofia.martins@northwind.example", "group": "All-Staff", "reviewer": "amara.nwosu@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-054", "user": "sofia.martins@northwind.example", "group": "GitHub-Developers", "reviewer": "amara.nwosu@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-055", "user": "sofia.martins@northwind.example", "group": "Jira-Software", "reviewer": "amara.nwosu@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.keep", "item": "AR-056", "user": "sofia.martins@northwind.example", "group": "M365-E3", "reviewer": "amara.nwosu@northwind.example"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.revoke", "item": "AR-057", "user": "temp.auditor@northwind.example", "group": "Finance-SharePoint", "reviewer": "iam-team@northwind.example", "flags": "orphan,inactive-267d"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.revoke", "item": "AR-058", "user": "temp.auditor@northwind.example", "group": "NetSuite-AP-Clerk", "reviewer": "iam-team@northwind.example", "flags": "orphan,inactive-267d"}
+{"ts": "2026-11-24T03:29:42+00:00", "action": "certify.disable_orphan", "user": "temp.auditor@northwind.example"}

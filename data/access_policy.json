@@ -1,0 +1,48 @@
+{
+  "description": "Role-based access policy for Northwind (fictional). Provisioning grants only what is listed here. Anything else a user holds is an exception that must survive an access review.",
+  "birthright": ["All-Staff", "M365-E3"],
+  "department_roles": {
+    "IT": ["IT-Helpdesk", "Okta-ReadOnly-Admin"],
+    "Engineering": ["GitHub-Developers", "AWS-Dev-ReadOnly", "Jira-Software"],
+    "Finance": ["NetSuite-AP-Clerk", "Finance-SharePoint"],
+    "Sales": ["Salesforce-Sales-User", "Sales-SharePoint"],
+    "Contractors": ["Jira-Software"]
+  },
+  "contractor_birthright_exclusions": ["M365-E3"],
+  "title_roles": {
+    "Finance Manager": ["NetSuite-AP-Approver"],
+    "IAM Engineer": ["Okta-Super-Admin"],
+    "Site Reliability Engineer": ["AWS-Prod-Admin"],
+    "Payroll Analyst": ["Workday-Payroll-Processor"]
+  },
+  "privileged_groups": [
+    "Okta-Super-Admin",
+    "AWS-Prod-Admin",
+    "Domain-Admins",
+    "NetSuite-Vendor-Admin",
+    "NetSuite-AP-Approver",
+    "Workday-Payroll-Admin"
+  ],
+  "sod_rules": [
+    {
+      "id": "SOD-01",
+      "name": "Create vendors and approve payments",
+      "groups": ["NetSuite-Vendor-Admin", "NetSuite-AP-Approver"],
+      "risk": "One person could add a fake vendor and approve payment to it."
+    },
+    {
+      "id": "SOD-02",
+      "name": "Process and administer payroll",
+      "groups": ["Workday-Payroll-Processor", "Workday-Payroll-Admin"],
+      "risk": "One person could change pay rates and run the payroll that pays them."
+    },
+    {
+      "id": "SOD-03",
+      "name": "Write code and administer production",
+      "groups": ["GitHub-Developers", "AWS-Prod-Admin"],
+      "risk": "Code can reach production without independent review.",
+      "mitigating_control": "Allowed for SRE when every production change goes through a reviewed pull request and break-glass access is logged."
+    }
+  ],
+  "inactive_days_threshold": 90
+}
