@@ -29,6 +29,13 @@ It runs on a laptop with no cloud accounts: `python -m igl demo`. The included [
         reports/: campaign CSV, evidence report, NHI findings, before/after state, audit.jsonl
 ```
 
+## Screenshots
+
+| | |
+|---|---|
+| ![Provisioning run](screenshots/01-demo-provisioning.png) **Provisioning run.** The joiner, mover and leaver changes, plus the orphan account. | ![Certification, NHI and tests](screenshots/02-demo-certification-nhi-tests.png) **Campaign, NHI audit and tests.** 5 revoked, 12 NHI findings, 9 tests passing. |
+| ![Certification evidence](screenshots/03-certification-evidence.png) **Certification evidence.** Revoked items and reviewer reasons. | ![NHI audit](screenshots/04-nhi-audit.png) **Non-human identity audit.** Findings with fixes. |
+
 ## The starting point: a tenant with real-world drift
 
 The target app ([data/app_seed.json](data/app_seed.json)) starts with the problems access reviews keep finding:
